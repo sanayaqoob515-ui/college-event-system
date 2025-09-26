@@ -1,0 +1,1 @@
+@extends('layouts.app') @section('content')<h2>My Notifications</h2><ul>@foreach($notes as $n)<li>{{ $n->message }} - {{ $n->created_at }}</li>@endforeach</ul>@endsection

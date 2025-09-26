@@ -1,0 +1,1 @@
+@extends('layouts.app') @section('content')<h2>Scan QR Placeholder</h2>@endsection
